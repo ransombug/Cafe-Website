@@ -177,13 +177,12 @@ a {
 }
 
 @media screen and (max-width: 400px) {
-  html {
-    font-size: 40.5%;
+  .index-main-text p {
+    font-size: 2rem;
   }
-
   .index-main-text {
-    left: 10%;
-    top: 45%;
+    left: 26%;
+    top: 40%;
   }
 }
 
@@ -325,12 +324,43 @@ a {
     width: 30%;
     margin: 20px;
   }
+
+  html {
+    font-size: 59%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .favorite-subhead {
+    top: 78%;
+  }
+
+  .favorite-para {
+    top: 75%;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 480px) {
+  html {
+    font-size: 60%;
+  }
+
   .cmcard {
     width: 50%;
     margin: 20px 0px;
+  }
+
+  .slideshow-container img {
+    vertical-align: middle;
+    height: 90vh;
+  }
+
+  .favorite-subhead {
+    top: 78%;
+  }
+
+  .favorite-para {
+    top: 75%;
   }
 }
 
@@ -338,6 +368,20 @@ a {
   .cmcard {
     width: 70%;
     margin: 20px 0px;
+  }
+
+  .slideshow-container img {
+    vertical-align: middle;
+    height: 80vh;
+  }
+
+  .favorite-para {
+    top: 80%;
+    font-size: 1.5rem;
+  }
+
+  .favorite-subhead {
+    top: 83%;
   }
 }
 
@@ -545,7 +589,7 @@ button {
     margin: 25px 0;
   }
   .customer-para {
-    padding: 20px 90px;
+    padding: 20px 40px;
   }
 }
 /* 
@@ -670,24 +714,32 @@ button {
   padding: 10px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .image-overlay {
+    height: 76.5%;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .image-overlay {
+    height: 77.5%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
-  .chef1 {
-    width: 100%;
-  }
-  .chef {
-    padding: 80px 0;
-  }
-
   .image-description {
-    padding: 0 150px;
+    padding: 0 15px;
   }
 
-  /* .image-overlay {
-    width: 290px;
-    height: 75%;
-    top: 5%;
-    left: 26.5%;
-  } */
+  .image-overlay {
+    height: 78%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .chef {
+    padding: 80px 15px;
+  }
 }
 
 /* Our Chefs ends*/
