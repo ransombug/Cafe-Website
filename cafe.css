@@ -36,9 +36,8 @@ a {
 .index-main-text {
   position: absolute;
   color: white;
-  left: 35%;
-  top: 55%;
-  z-index: 1;
+  left: 32%;
+  top: 50%;
 }
 
 .index-main-text p {
@@ -120,8 +119,18 @@ a {
   }
 
   .index-main-text {
-    left: 25%;
-    top: 55%;
+    left: 36%;
+    top: 25%;
+    font-size: 1rem;
+  }
+
+  .index-main-text p {
+    font-size: 3rem;
+  }
+
+  .slideshow-container img {
+    vertical-align: middle;
+    height: 50vh;
   }
 }
 
@@ -146,9 +155,15 @@ a {
     display: block;
     text-align: center;
     color: black;
-    background-color: #dbb46f;
+    background-color: #797670;
     font-weight: bold;
   }
+
+  .topnav.responsive a:hover {
+    color: white;
+    background-color: rgb(34, 37, 37);
+  }
+
   .topnav a {
     padding-top: 20px;
     font-weight: 700;
@@ -171,18 +186,22 @@ a {
   }
 
   .index-main-text {
-    left: 15%;
-    top: 55%;
+    left: 30%;
+    top: 25%;
+  }
+
+  .header {
+    height: 55px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .index-main-text p {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .index-main-text {
-    left: 26%;
-    top: 40%;
+    left: 24%;
+    top: 25%;
   }
 }
 
@@ -352,7 +371,7 @@ a {
 
   .slideshow-container img {
     vertical-align: middle;
-    height: 90vh;
+    height: 50vh;
   }
 
   .favorite-subhead {
@@ -372,7 +391,7 @@ a {
 
   .slideshow-container img {
     vertical-align: middle;
-    height: 80vh;
+    height: 50vh;
   }
 
   .favorite-para {
