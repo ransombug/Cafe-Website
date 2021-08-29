@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Cafe</title>
+
+    <!-- Title Icon -->
+    <link rel="icon" href="./Icons/favicon.ico" />
+
+    <!-- Css file -->
+    <link rel="stylesheet" href="./cafe.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <!-- Header starts -->
+    <div class="index-header border">
+        <div class="topnav" id="myTopnav">
+            <a href="#menu">Menu</a>
+            <a href="./cafe.html" target="_blank">Our story</a>
+            <img src="Images/logo2.png" height="100px" width="100px" class="logo" />
+            <a href="#events">Events</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" style="color: rgb(255, 255, 255)"></i>
+            </a>
+        </div>
+        <div class="index-main-text center-me">
+            <p>EAT DELICIOUS</p>
+            <h1>STAY HEALTHY !</h1>
+        </div>
+
+        <!-- Header Carousel start -->
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/bg-image.png" class="carousel" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/restaurant.jpg" class="carousel" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/bar.jpg" class="carousel" style="width: 100%" />
+            </div>
+        </div>
+
+        <div class="dot-section-index" style="text-align: center">
+            <span class="dot-index" onclick="currentSlide(1)"></span>
+            <span class="dot-index" onclick="currentSlide(2)"></span>
+            <span class="dot-index" onclick="currentSlide(3)"></span>
+        </div>
+
+        <!-- Header Carousel end -->
+
+    </div>
+    <!-- Header Ends -->
+
+
+
+    <!-- Our Favorite starts -->
+    <div class="index-favorite center-me">
+        <h2 class="favorite-head center-me">OUR FAVOURITES</h2>
+        <div class="index-favorite-card">
+            <div class="pasta-card cmcard">
+                <h2 class="favorite-subhead">Noodle Past</h2>
+                <p class="favorite-para">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Donec
+                    enim magna, iaculis vel dolor nec,imperdiet pellentesque dui
+                </p>
+            </div>
+
+            <div class="mango-card cmcard">
+                <h2 class="favorite-subhead">Mango cake</h2>
+                <p class="favorite-para">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Donec
+                    enim magna, iaculis vel dolor nec,imperdiet pellentesque dui
+                </p>
+            </div>
+
+            <div class="cupcake-card cmcard">
+                <h2 class="favorite-subhead">Cupcake</h2>
+                <p class="favorite-para">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Donec
+                    enim magna, iaculis vel dolor nec,imperdiet pellentesque dui
+                </p>
+            </div>
+
+            <div class="croissants-card cmcard">
+                <h2 class="favorite-subhead">Crossiants</h2>
+                <p class="favorite-para">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Donec
+                    enim magna, iaculis vel dolor nec,imperdiet pellentesque dui
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Our Favorite ends -->
+
+
+    <!-- OUR TASTY MENU starts -->
+    <div class="index-tasty-menu">
+        <h2 class="tasty-head center-me">OUR TASTY MENU</h2>
+        <div class="index-tasty-card">
+            <div class="drinks-card tmcard">
+                <button type="button">DRINKS</button>
+
+            </div>
+            <div class="snacks-card tmcard">
+                <button type="button">SNACKS</button>
+
+            </div>
+            <div class="lunch-card tmcard">
+                <button type="button">LUNCH</button>
+
+            </div>
+        </div>
+    </div>
+    <!-- OUR TASTY MENU ends -->
+
+
+    <!-- Customer Review starts -->
+    <div class="customer-rev center-me">
+        <h2 class="customer-head center-me">CUSTOMER REVIEWS</h2>
+        <p class="customer-para center-me"> It’s a great experience. The ambiance is
+            very welcoming and charming.
+            Amazing wines, food and service. Staff are extremely knowledgeable and make great recommendations. This
+            place is great! Atmosphere is chill and cool but the staff is also really friendly. They know what they’re
+            doing and what they’re talking about, and you can tell making the customers happy is their main priority.
+            Food is pretty good, some italian classics and some twists, and for their prices it’s 100% worth it.</p>
+        <hr class="horizon">
+        <h5 class="john">John Smith</h5>
+    </div>
+    <!-- Customer Review Ends -->
+
+    <!-- Gallery Section starts -->
+    <div class="gallery">
+        <div class="col-3-wall"></div>
+        <div class="col-6-chef">
+            <div class="row-1">
+                <div class="first-chef"></div>
+                <div class="second-chef"></div>
+            </div>
+            <div class="row-2"></div>
+        </div>
+        <div class="col-3-hot"></div>
+    </div>
+    <!-- Gallery Section ends -->
+
+    <!-- Map starts -->
+    <div class="map">
+        <div style="width: 100%">
+            <iframe width="100%" height="370px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.192522624231!2d73.93486981467457!3d15.366056289318617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb1341c935973%3A0x8ac1ddbc35c78f8b!2sSJ%20Innovation%20Private%20Limited!5e0!3m2!1sen!2sin!4v1630149553061!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <!-- Map Ends -->
+
+    <!--Footer starts -->
+    <div class="footer">
+        <p class="text-center">@2016 cafe , All rights reserved</p>
+    </div>
+    <!--Footer Ends -->
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides((slideIndex += n));
+        }
+
+        function currentSlide(n) {
+            showSlides((slideIndex = n));
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot-index");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>

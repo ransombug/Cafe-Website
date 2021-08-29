@@ -1,0 +1,38 @@
+html {
+  font-size: 62.5%;
+}
+
+/* Common CSS */
+.center-me {
+  text-align: center;
+}
+/* Common CSS Ends*/
+
+/* --------------------------------------------------------------------------------- */
+
+/* Header start */
+.header {
+  background-image: url("./Images/bg-image.png");
+  background-size: cover;
+  height: 100rem;
+}
+
+.header-content {
+  justify-content: center;
+  display: flex;
+}
+
+.header-content a {
+  padding: 14rem 8rem 2rem 2rem;
+  font-size: 2rem;
+  font-style: italic;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.horizontal-line {
+  padding-bottom: 0.5rem;
+}
+/* Header End */
+/* --------------------------------------------------------------------------------- */
