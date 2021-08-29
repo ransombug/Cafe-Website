@@ -44,7 +44,7 @@ a {
 .index-main-text p {
   font-size: 4rem;
   margin: 0px;
-  font-weight: bolder;
+  font-weight: lighter;
 }
 
 .header-content {
@@ -103,6 +103,11 @@ a {
     float: right;
     display: block;
   }
+
+  .index-main-text {
+    left: 30%;
+    top: 55%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -131,7 +136,7 @@ a {
   }
   .topnav a {
     padding-top: 20px;
-    display: none;
+    font-weight: 700;
   }
   .topnav {
     overflow: hidden;
@@ -151,8 +156,15 @@ a {
   }
 
   .index-main-text {
+    left: 25%;
+    top: 55%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .index-main-text {
     left: 15%;
-    top: 75%;
+    top: 55%;
   }
 }
 
@@ -248,6 +260,8 @@ a {
 .cmcard:hover {
   transform: scale(1.1);
   transition: all 0.6s ease;
+  border: 1px solid black;
+  border-radius: 7px;
 }
 
 .pasta-card {
@@ -326,7 +340,7 @@ a {
 }
 
 .tmcard {
-  padding: 0.8rem;
+  padding: 20px;
   margin: 1rem 2rem;
   width: 20%;
   height: 35rem;
@@ -335,25 +349,37 @@ a {
   cursor: pointer;
 }
 
+.tmcard:hover {
+  transform: scale(0.9);
+  transition: all 0.6s ease;
+}
+
+.menu-card {
+  border: 1px solid #dbb46f;
+  background-color: #55420870;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .drinks-card {
-  background-image: url("./Images/drinks-bg.jpg");
+  background-image: url("./Images/drinks.jpg");
   background-size: cover;
 }
 
 .snacks-card {
-  background-image: url("./Images/cafe-site1_17.jpg");
+  background-image: url("./Images/snacks.jpg");
   background-size: cover;
 }
 
 .lunch-card {
-  background-image: url("./Images/cafe-site1_19.jpg");
+  background-image: url("./Images/lunch.jpg");
   background-size: cover;
 }
 
 button {
-  position: relative;
-  top: 40%;
-  left: 25%;
   height: 50px;
   border: none;
   border-top: 1px solid white;
@@ -362,11 +388,15 @@ button {
   font-size: 3.5rem;
   width: 50%;
   text-align: center;
+  align-items: center;
   background-color: transparent;
 }
 @media only screen and (max-width: 1120px) and (min-width: 768px) {
   .tmcard {
     width: 28%;
+    height: 400px;
+  }
+  .menu-card {
     height: 400px;
   }
 }
@@ -376,6 +406,10 @@ button {
     width: 50%;
     height: 420px;
     margin: 20px 0px;
+  }
+
+  .menu-card {
+    height: 410px;
   }
 }
 
@@ -433,12 +467,22 @@ button {
 .card-one {
   padding: 1rem;
   margin: 0 15px;
-  width: 22%;
+  width: 20%;
   background-color: #1d1c1c;
 }
 
+/* 
+.card-one:hover {
+  transform: scale(1.1);
+  transition: all 0.6s ease;
+} */
+
 .cafe-cards img {
   width: 100%;
+}
+
+.cafe-cards img:hover {
+  transform: scale(0.9);
 }
 
 .cafe-cards,
@@ -614,6 +658,17 @@ button {
   .chef {
     padding: 80px 0;
   }
+
+  .image-description {
+    padding: 0 150px;
+  }
+
+  /* .image-overlay {
+    width: 290px;
+    height: 75%;
+    top: 5%;
+    left: 26.5%;
+  } */
 }
 
 /* Our Chefs ends*/
